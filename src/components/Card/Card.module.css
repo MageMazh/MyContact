@@ -1,0 +1,46 @@
+.card {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+.rowProfile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1;
+    padding-left: 15px;
+}
+.rowEdit {
+    display: flex;
+    align-items: center;
+    grid-column: 5;
+}
+.rowDesc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-column: 2/5;
+}
+.content {
+    background-color: burlywood;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 10px 7px 7px 0px rgba(0,0,0,0.45);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Membuat 3 kolom dengan lebar yang sama */
+    height: 100px;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.buttons button {
+    background-color: burlywood;
+    border: 1px solid burlywood;
+    padding-top: 35px;
+    display: inline;
+}
+.buttons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
